@@ -1,0 +1,34 @@
+			body{
+			//	max-width: 960px;
+			//	width: auto;
+				font-size: 1.2em;
+			}
+			header{
+				padding: 1em;
+				border: 1px solid #000;
+			}
+			.container{
+				max-width: 960px;
+				flex-direction: column;
+				margin: 0 auto;
+				width: 100%;
+				padding: 0em;
+				display: flex;
+			}
+			.flexbox{
+				width: 100%;
+				margin: auto;
+				flex-wrap: wrap;
+				flex-direction: column row;
+				display: flex;
+			}
+			.item {
+				padding: 1em;
+				margin: 1em auto;
+				width: 10em;
+				border: 1px solid #000;
+			}
+			footer{
+				border: 1px solid #000;
+				width: 100%;
+			}
