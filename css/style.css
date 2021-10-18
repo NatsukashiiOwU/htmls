@@ -1,13 +1,13 @@
-			body{
+			body {
 			//	max-width: 960px;
 			//	width: auto;
 				font-size: 1.2em;
 			}
-			header{
+			header {
 				padding: 1em;
 				border: 1px solid #000;
 			}
-			.container{
+			.container {
 				max-width: 960px;
 				flex-direction: column;
 				margin: 0 auto;
@@ -15,7 +15,7 @@
 				padding: 0em;
 				display: flex;
 			}
-			.flexbox{
+			.flexbox {
 				width: 100%;
 				margin: auto;
 				flex-wrap: wrap;
@@ -28,11 +28,7 @@
 				width: 10em;
 				border: 1px solid #000;
 			}
-			footer{
-				border: 1px solid #000;
-				width: 100%;
-			}
-			.containercalc{
+			.containercalc {
 				text-align: center;
 				max-width: 960px;
 				flex-direction: column;
@@ -43,9 +39,14 @@
 			}
 
 			@for $i from 1 through 20 {
-  .space-#{$i*5} {
-    display: block;
-    width: 100%;
-    height: #{$i*5}px;
-  }
-}
+			  .space-#{$i*5} {
+			    display: block;
+			    width: 100%;
+			    height: #{$i*5}px;
+			  }
+			}
+
+			footer {
+				border: 1px solid #000;
+				width: 100%;
+			}
