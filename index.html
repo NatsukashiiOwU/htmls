@@ -4,6 +4,8 @@
 	<title>1000-7</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-3.3.1.js"></script>
+	<script src="js/script.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
 </head>
 
@@ -17,6 +19,31 @@
 			</aside>
 		</header>
 		
+		<div class="containercalc">
+			  <h1>Калькулятор</h1> 
+			  	<div class="input-group">
+			    <span class="input-group-addon"><i class="fa fa-money" aria-hidden="true"></i></span>
+			  	<input type="text" id="summ" class="form-control" placeholder="Сумма займа">
+			  </div>
+			  <div class="space-10"></div>
+			  <div class="input-group">
+			    <span class="input-group-addon"><strong></strong></span>
+			    <input type="text" id="percent" class="form-control" placeholder="Годовой процент">
+			  </div>
+			  <div class="space-10"></div>
+			  <div class="input-group">
+			    <span class="input-group-addon"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+			    <input type="text" id="srok" class="form-control" placeholder="Срок займа в месяцах">
+			  </div>
+			  <div class="space-10"></div>
+			  <button id="get" class="btn btn-primary">Выполнить</button>
+			  <button id="clear" class="btn btn-danger">Очистить</button>
+			  <div class="space-10"></div>
+			  <div id="itog">
+			  </div>
+			  <br>
+		</div>
+
 		<div class="container">
 			Верблюды - выносливые создания, превосходно приспособленные к жизни в засушливых регионах. Эволюция наградили их способностью выжимать там, где большинство других млекопитающих вряд ли протянут дольше нескольких дней. Кроме того, верблюды играют не менее важную роль в истории человечества, чем лошади, и они способны пройти там, где пошадям и не снилось.
 		</div>
