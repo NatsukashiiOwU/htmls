@@ -4,8 +4,22 @@
 				font-size: 1.2em;
 			}
 			header{
+				background-color: rgba(0, 204, 255, 1.0);
+				text-align: center;
 				padding: 1em;
 				border: 1px solid #000;
+			}
+			strong{
+				font-size: 2.5em;
+				text-align: center;
+			}
+			h1{
+				text-align:center;
+			}
+			.imagetop{
+				width: 75px;
+				height: 75px;
+				align: "right";
 			}
 			.container{
 				max-width: 960px;
@@ -21,14 +35,19 @@
 				flex-wrap: wrap;
 				flex-direction: column row;
 				display: flex;
+				//flex-direction: row;
+				//flex-wrap: nowrap;
 			}
 			.item {
+				border-width: 0px;
+				margin: auto;
 				padding: 1em;
 				margin: 1em auto;
 				width: 10em;
 				border: 1px solid #000;
 			}
 			footer{
+				background-color: rgba(0, 204, 255, 1.0);
 				border: 1px solid #000;
 				width: 100%;
 			}
